@@ -1,2 +1,2 @@
-# kronos_devops
+# Devops
 Cloud Automation Code
