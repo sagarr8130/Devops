@@ -2,9 +2,9 @@
 
 ###############################################################################
 #Script Name    : redis.sh
-#Description    : Key Count of multiple Redis-WFM servers
-#Author         : Sagar Saxena
-#Email          : sagar.saxena@kronos.com
+#Description    : Key Count of multiple Redis-XXX servers
+#Author         : XXX
+#Email          : XXX
 ################################################################################
 
 set prompt "(%|#|\\$) $"
