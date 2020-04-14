@@ -4,12 +4,12 @@
 #Script Name    : rolling.sh
 #Description    : Rolling Restart of WFM Cluster
 #Author         : Sagar Saxena
-#Email          : cloudautomation@kronos.com
+#Email          : cloudautomation@XXX.com
 ################################################################################
 
 
-fun1() { sudo /usr/local/kronos/wfc/bin/wfc kill; sleep 10; sudo /usr/local/kronos/wfc/bin/wfc start; }
-fun2() { sudo /usr/local/kronos/wfc/bin/wfc status; }
+fun1() { sudo /usr/local/XXX/wfc/bin/wfc kill; sleep 10; sudo /usr/local/XXX/wfc/bin/wfc start; }
+fun2() { sudo /usr/local/XXX/wfc/bin/wfc status; }
 
 REFRESH_TOKEN="TODO"
 TOKEN_ENDPOINT="TODO"
@@ -182,4 +182,3 @@ COUNTER=0
 
 
 ###SCRIPT ENDED
-
