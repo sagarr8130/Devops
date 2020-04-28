@@ -2,8 +2,8 @@
 
 ###############################################################################
 #Script Name    : rolling.sh
-#Description    : Rolling Restart of XXX Cluster
-#Author         : XXX
+#Description    : Rolling Restart of WFM Cluster
+#Author         : Sagar Saxena
 #Email          : XXX
 ################################################################################
 
