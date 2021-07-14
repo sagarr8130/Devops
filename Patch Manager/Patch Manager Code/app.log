@@ -1,0 +1,629 @@
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-973-480
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:03] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:08] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:11] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:11] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:11] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:11] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:11] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 400 61
+ERROR:root:Invalid RS Token
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:15] "[32mPOST /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:15] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:16] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:23] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:35] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 400 61
+ERROR:root:Invalid RS Token
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:41] "[32mPOST /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:41] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:50] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:51] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:51] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:53] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:10:56] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:11:06] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:11:14] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:11:19] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:root:Fetching Deployment details based on inputs entered
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/tags/by_tag HTTP/1.1" 200 148
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417047004 HTTP/1.1" 200 852
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417059004 HTTP/1.1" 200 852
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:11:34] "[37mPOST /apply_patch HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:11:40] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-973-480
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:17:34] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:17:36] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:17:48] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:17:48] "[37mGET /static/env.json HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:18:01] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:18:01] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:18:08] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:18:15] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:18:15] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:18:19] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:root:Fetching Deployment details based on inputs entered
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/tags/by_tag HTTP/1.1" 200 148
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417047004 HTTP/1.1" 200 852
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417059004 HTTP/1.1" 200 852
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:19:28] "[37mPOST /apply_patch HTTP/1.1[0m" 200 -
+INFO:root:Fetching Deployment details based on inputs entered
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/tags/by_tag HTTP/1.1" 200 148
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417047004 HTTP/1.1" 200 852
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417059004 HTTP/1.1" 200 852
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:19:52] "[37mPOST /apply_patch HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:19:58] "[32mGET /apply_patch HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:19:58] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:20:02] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:root:Fetching Deployment details based on inputs entered
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/tags/by_tag HTTP/1.1" 200 148
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417047004 HTTP/1.1" 200 852
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417059004 HTTP/1.1" 200 852
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:20:20] "[37mPOST /apply_patch HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:20:23] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:20:23] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-973-480
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:21:24] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:21:30] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:21:32] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:21:36] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:21:38] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:21:38] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:21:42] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:root:Fetching Deployment details based on inputs entered
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/tags/by_tag HTTP/1.1" 200 148
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417047004 HTTP/1.1" 200 852
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417059004 HTTP/1.1" 200 852
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:21:58] "[37mPOST /apply_patch HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:22:04] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:22:04] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:22:06] "[32mGET /apply_patch HTTP/1.1[0m" 302 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:22:12] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:root:Fetching Deployment details based on inputs entered
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/tags/by_tag HTTP/1.1" 200 148
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417047004 HTTP/1.1" 200 852
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417059004 HTTP/1.1" 200 852
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:22:28] "[37mPOST /apply_patch HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:22:31] "[32mGET /apply_patch HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:22:31] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-973-480
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:30:14] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:30:18] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:30:18] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:30:30] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:30:30] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:30:30] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:30:30] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:30:34] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:30:37] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:30:37] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:30:46] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:root:Fetching Deployment details based on inputs entered
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/tags/by_tag HTTP/1.1" 200 148
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417047004 HTTP/1.1" 200 852
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417059004 HTTP/1.1" 200 852
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:31:30] "[37mPOST /apply_patch HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:31:36] "[32mGET /apply_patch HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:31:36] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-973-480
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:54:34] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:54:44] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:54:49] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:54:49] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:55:00] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:55:12] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:55:12] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:55:12] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:55:22] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'c:\\myproject\\Flask\\login.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-973-480
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:06] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:10] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:10] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:10] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:11] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 400 61
+ERROR:root:Invalid RS Token
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:13] "[32mPOST /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:13] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:15] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:21] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:24] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:24] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:24] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:24] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:25] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:25] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:25] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:25] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:25] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:root:Fetching Deployment details based on inputs entered
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/tags/by_tag HTTP/1.1" 200 148
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417047004 HTTP/1.1" 200 852
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417059004 HTTP/1.1" 200 852
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:43] "[37mPOST /apply_patch HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:51] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:53] "[32mGET /apply_patch HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:53] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:57:57] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:root:Fetching Deployment details based on inputs entered
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/tags/by_tag HTTP/1.1" 200 148
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417047004 HTTP/1.1" 200 852
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1417059004 HTTP/1.1" 200 852
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:58:23] "[37mPOST /apply_patch HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:59:11] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:59:20] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:59:22] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:59:22] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:59:22] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:59:22] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 17:59:22] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-973-480
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:02:34] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:02:38] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:02:45] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-973-480
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:03:46] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:03:46] "[37mGET /static/images/kronos.PNG HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:03:48] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:03:50] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:03:50] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:04:02] "[32mGET /apply_patch HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:04:02] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:04:09] "[32mGET /execute_right_script HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:04:09] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:04:20] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:04:20] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 400 61
+ERROR:root:Invalid RS Token
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:04:24] "[32mPOST /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:04:24] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 400 61
+ERROR:root:Invalid RS Token
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:04:31] "[32mPOST /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:04:31] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:06:10] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:06:16] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:06:16] "[37mGET /static/env.json HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:06:21] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:06:21] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:06:21] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:06:22] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:06:23] "[35m[1mPOST /apply_patch HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:06:23] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:06:23] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:06:23] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:06:23] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:06:23] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:06:23] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:06:31] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-973-480
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:07:43] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:07:48] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:07:49] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:07:50] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:07:50] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:07:50] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:07:50] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:07:52] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:07:55] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:07:55] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-973-480
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:08:41] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:08:41] "[37mGET /static/images/kronos.PNG HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:08:43] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:08:43] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:08:43] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:08:43] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:08:44] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:08:50] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:08:50] "[37mGET /static/env.json HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:08:51] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:08:52] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:08:52] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:08:53] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:08:56] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:08:57] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:08:57] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:08:58] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:00] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:03] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:04] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:06] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:06] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:11] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:17] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:20] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 400 61
+ERROR:root:Invalid RS Token
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:26] "[32mPOST /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:26] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:30] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:32] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:34] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:35] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:40] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:41] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:41] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:42] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:42] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 400 61
+ERROR:root:Invalid RS Token
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:48] "[32mPOST /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:48] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:55] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:58] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:09:59] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-973-480
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:11:44] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:11:45] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:11:45] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:11:46] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 400 61
+ERROR:root:Invalid RS Token
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:11:55] "[32mPOST /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:11:55] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:11:57] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 400 61
+ERROR:root:Invalid RS Token
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:02] "[32mPOST /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:02] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:04] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:08] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:10] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:11] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:11] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:11] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:11] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:11] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:12] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:14] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:16] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:16] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:22] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:25] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 400 61
+ERROR:root:Invalid RS Token
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:30] "[32mPOST /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:30] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:33] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:37] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:39] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:12:45] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:root:Fetching Deployment details based on inputs entered
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/tags/by_tag HTTP/1.1" 200 260
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1425910004 HTTP/1.1" 200 856
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1425362004 HTTP/1.1" 200 856
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1425343004 HTTP/1.1" 200 856
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1425335004 HTTP/1.1" 200 856
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:13:09] "[37mPOST /apply_patch HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:13:21] "[35m[1mGET /apply_patch HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:13:21] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:13:21] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:13:21] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:13:21] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:13:21] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:13:21] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-973-480
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:14:07] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:14:07] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:14:14] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:root:Fetching Deployment details based on inputs entered
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/tags/by_tag HTTP/1.1" 200 148
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1435289004 HTTP/1.1" 200 1045
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1383292004 HTTP/1.1" 200 908
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:14:34] "[37mPOST /apply_patch HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:14:39] "[37mGET /apply_patch HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:14:48] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:root:Fetching Deployment details based on inputs entered
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/tags/by_tag HTTP/1.1" 200 204
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1377210004 HTTP/1.1" 200 931
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1409304004 HTTP/1.1" 200 1047
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1377148004 HTTP/1.1" 200 922
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:15:00] "[37mPOST /apply_patch HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:15:08] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:15:38] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:15:40] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:15:40] "[32mGET /apply_patch HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:15:40] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:15:41] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:15:42] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:15:42] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:15:43] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:15:43] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:15:43] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:15:43] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-973-480
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:28:50] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:28:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:06] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:06] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:06] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:07] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:07] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:07] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:07] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:07] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:08] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 400 61
+ERROR:root:Invalid RS Token
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:12] "[32mPOST /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:12] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 400 61
+ERROR:root:Invalid RS Token
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:22] "[32mPOST /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:22] "[37mGET /error?message=Invalid+RS+Token%2C+Please+Re-try. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:26] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:26] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:26] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:26] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:39] "[32mGET /apply_patch HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:39] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:43] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:50] "[35m[1mPOST /apply_patch HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:50] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:50] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:50] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:51] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:51] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:51] "[37mGET /apply_patch?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:29:59] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:03] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:06] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:06] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:09] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:15] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:18] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:19] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:19] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:24] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:34] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:37] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:37] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:48] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:51] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:52] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:52] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:52] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:31:54] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:32:00] "[32mGET /deployment_info HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:32:00] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:root:Authenticating User RS token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/oauth2 HTTP/1.1" 200 429
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:32:06] "[37mPOST /deployment_info HTTP/1.1[0m" 200 -
+INFO:root:Fetching Deployment details based on inputs entered
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/tags/by_tag HTTP/1.1" 200 260
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1418444004 HTTP/1.1" 200 856
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1418135004 HTTP/1.1" 200 856
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1418164004 HTTP/1.1" 200 856
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1422461004 HTTP/1.1" 200 921
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:32:30] "[37mPOST /apply_patch HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:32:56] "[37mGET /apply_patch HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:32:59] "[37mGET /deployment_info HTTP/1.1[0m" 200 -
+INFO:root:Fetching Deployment details based on inputs entered
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/tags/by_tag HTTP/1.1" 200 2
+ERROR:root:Deployment received is empty
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:33:09] "[32mPOST /apply_patch HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:33:09] "[37mGET /error?message=No+Deployments+found+for+selected+parameters. HTTP/1.1[0m" 200 -
+INFO:root:Fetching Deployment details based on inputs entered
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "POST /api/tags/by_tag HTTP/1.1" 200 260
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1425641004 HTTP/1.1" 200 854
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1425613004 HTTP/1.1" 200 854
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1425631004 HTTP/1.1" 200 854
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): us-4.rightscale.com:443
+DEBUG:urllib3.connectionpool:https://us-4.rightscale.com:443 "GET /api/deployments/1425649004 HTTP/1.1" 200 854
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:33:33] "[37mPOST /apply_patch HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:33:37] "[37mGET /error?message=No+Deployments+found+for+selected+parameters. HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:33:47] "[32mGET /apply_patch HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:33:47] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 21:33:52] "[37mGET /login HTTP/1.1[0m" 200 -

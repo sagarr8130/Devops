@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<style>
+  input[type=password],
+  select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+  input[type=text],
+  select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+  input[type=submit] {
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  input[type=submit]:hover {
+    width: 25%;
+    background-color: #45a049;
+  }
+
+
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+</style>
+
+
+<body>
+  <img src="{{url_for('static',filename='images/kronos.PNG')}}" width="350" height="100">
+  <br>
+  <h2>Authenticated successfully, Please Enter following details to proceed</h2><br>
+
+
+  <form action="{{ url_for('apply_patch') }}" method="post">
+
+
+    <p>
+      {{form.stack.label}}
+      <select name="stack" id="stack">
+        <option disabled selected>select</option>
+      </select>
+    </p>
+
+
+    <p>
+      {{form.environment.label}}
+      <select name="environment" id="environment">
+        <option disabled selected>select</option>
+      </select>
+    </p>
+
+
+    <p>
+      {{form.release_version.label}}
+      {{form.release_version(size=30)}}
+    </p>
+
+
+    <p>
+      {{form.service.label}}
+      {{form.service(size=30)}}
+    </p>
+
+
+    <p>{{form.proceed()}}</p>
+
+
+
+
+  </form>
+
+
+  <script>
+    if (window.history.replaceState) { window.history.replaceState(null, null, window.location.href); }
+    var data = [];
+    $.getJSON("{{url_for('static',filename='env.json')}}", function (data) {
+      console.log(data)
+      data.forEach(function (element, index, array) {
+        Object.keys(element).forEach(function (item) {
+          console.log(item)
+          $("#stack").append(`<option>` + item + `</option>`)
+          for (i = 0; i < element[item].length; i++) {
+            $("#environment").append(`<option value=` + element[item][i] + ` data-id=` + item + `>` + element[item][i] + `</option>`)
+            $("#environment option").hide()
+          }
+          console.log(element[item])
+        })
+      })
+    });
+    $("#stack").on("change", function () {
+      $("#environment").val("")
+      $("#environment option").hide();
+      for (i = 0; i < $("#environment option").length; i++) {
+        console.log()
+        if ($(this).val() == $("#environment option").eq(i).attr("data-id")) {
+          $("#environment option").eq(i).show()
+        }
+      }
+    })
+  </script>
+  <a href="login" target="_self">Home</a>
+  {% if message %}<p style="color:red;font-size:20px;"> {{ message }} {% endif %}
+</body>
+
+</html>

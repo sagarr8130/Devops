@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+</head>
+<style>
+  input[type=password],
+  select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=text],
+  select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    width: 25%;
+    background-color: #45a049;
+  }
+
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+</style>
+
+<body>
+  <script>
+    if (window.history.replaceState) { window.history.replaceState(null, null, window.location.href); }
+  </script>
+  <img src="{{url_for('static',filename='images/kronos.PNG')}}" width="350" height="100">
+
+
+  <br>
+  <h2>Please select Deployment(s) and enter RightScript name to apply</h2><br>
+
+  <form action="{{ url_for('execute_right_script') }}" method="post">
+
+    <table style="margin-left: 20px;" border="1">
+      <th>
+        <tr style="color: green; ">
+          <td>Select</td>
+          <td>Execution Name</td>
+          <td>Link to Self Service</td>
+          <td>Patch Status</td>
+        </tr>
+      </th>
+
+      {% for i in dep_list %}
+      <tr>
+        <td name="selected"><input type="checkbox" name="selected" value="{{i.name}}" /></td>
+        <td name="dep_name">{{i.name}}</td>
+        <input type="hidden" name="dep_name" value="{{i.name}}" />
+        <td name="dep_url"><a href="{{i.self_service_url}}" target="_blank"> {{i.self_service_url}}</a></td>
+        <input type="hidden" name="dep_url" value="{{i.self_service_url}}" />
+        <td name="status">Not Started</td>
+        {% endfor %}
+      </tr>
+
+    </table>
+
+    <p>
+      {{form.rs_name.label}}
+      {{form.rs_name(size=30)}}
+    </p>
+
+    <p>{{form.confirm()}}</p>
+    <a href="login" target="_self">Home</a>
+    <a href="{{url_for('apply_patch')}}" target="_self">Back</a>
+  </form>
+  {% if message %}<p style="color:red;font-size:20px;"> {{ message }} {% endif %}
+    <!-- {% if message %}<a href="apply_patch" target="_self">Back</a>{% endif %} -->
+</body>
+
+</html>

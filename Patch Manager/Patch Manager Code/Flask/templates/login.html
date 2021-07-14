@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Log in to WFD Patch Manager</title>
+</head>
+<style>
+  input[type=password],
+  select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=text],
+  select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    width: 25%;
+    background-color: #45a049;
+  }
+
+  logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+</style>
+
+<body>
+  <img src="{{url_for('static',filename='images/kronos.PNG')}}" width="350" height="100">
+  <br>
+  <h2>Welcome to WFD Patch Manager</h2><br>
+  <p>Enter RightScale Token to proceed</p>
+
+
+  <form action="{{ url_for('deployment_info') }}" method="post">
+    <p>
+      {{form.password.label}}
+      {{form.password(size=30)}}
+    </p>
+    <p>{{form.submit()}}</p>
+  </form>
+
+  {% if message %}<p style="color:red;font-size:20px;"> {{ message }} {% endif %}
+
+</body>
+
+</html>
